@@ -8,6 +8,8 @@ h2 {
 
 nav {
   height: 200px;
+  background-color: rgb(21, 21, 21);
+  border-bottom: 0.5px solid #bebebe;
 }
 
 .navLink {
@@ -51,7 +53,7 @@ nav {
 }
 
 .lineaPie {
-  border: 1px solid #bebebe;
+  border: 0.5px solid #bebebe;
 }
 
 h3 {
@@ -94,7 +96,6 @@ i:hover {
   color: #ff0000;
 }
 
-/* Inicia pagina contacto */
 .linea {
   position: relative;
   z-index: 1;
@@ -104,7 +105,7 @@ i:hover {
   padding: 0 15px;
 }
 .linea::before {
-  border-top: 1px solid #bebebe;
+  border-top: 0.5px solid #bebebe;
   content: " ";
   margin: 0 auto;
   position: absolute;
@@ -116,10 +117,25 @@ i:hover {
   z-index: -1;
 }
 
+/* Inicia pagina contacto */
 form {
   color: #bebebe;
 }
 
 /* Fin pagina contacto */
+/* Inicio pagina nosotros */
+p span {
+  color: #ff0000;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Fin pagina nosotros */
+/* Inicio pagina fotografia 3D */
+#textoFoto3D p:first-child {
+  font-style: italic;
+}
+
+/* Fin pagina fotografia 3D */
 
 /*# sourceMappingURL=estilos.css.map */

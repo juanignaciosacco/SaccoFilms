@@ -14,6 +14,8 @@ h2
 // Inicia barra navegacion 
 nav
     height: 200px
+    background-color: $colorNegro
+    border-bottom: 0.5px solid $colorLineas
 
 .navLink
     color: #fff
@@ -52,7 +54,7 @@ nav
 
 // Inicio pie de pagina
 .lineaPie
-    border: 1px solid $colorLineas
+    border: 0.5px solid $colorLineas
 
 h3
     color: $colorTitulos
@@ -86,9 +88,7 @@ i
             color: $colorHover
 // Fin pie de pagina
 
-/* Inicia pagina contacto */
-
-// Inicia titulo de pagina con lineas
+// Inicia titulo de paginas con lineas
 .linea
     position: relative
     z-index: 1
@@ -96,7 +96,7 @@ i
         background: $colorNegro
         padding: 0 15px
     &::before
-        border-top: 1px solid $colorLineas
+        border-top: 0.5px solid $colorLineas
         content: " "
         margin: 0 auto
         position: absolute
@@ -106,10 +106,28 @@ i
         bottom: 0
         width: 95%
         z-index: -1
-// Fin titulo de pagina con lineas
+// Fin titulo de paginas con lineas
+
+/* Inicia pagina contacto */
 
 // Formulario
 form
     color: $colorTextos
 
 /* Fin pagina contacto */
+
+/* Inicio pagina nosotros */
+p
+    span
+        color: $colorHover
+        text-transform: uppercase
+        font-style: italic
+/* Fin pagina nosotros */
+
+/* Inicio pagina fotografia 3D */
+#textoFoto3D
+    p
+        &:first-child
+            font-style: italic
+/* Fin pagina fotografia 3D */
+
