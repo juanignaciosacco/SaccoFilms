@@ -10,6 +10,7 @@ body
 
 h2
     color: $colorTitulos
+
 // Inicia barra navegacion 
 nav
     height: 200px
@@ -49,6 +50,41 @@ nav
     width: 250px
 // Fin barra navegacion
 
+// Inicio pie de pagina
+.lineaPie
+    border: 1px solid $colorLineas
+
+h3
+    color: $colorTitulos
+
+h4
+    color: $colorTitulos
+
+p
+    color: $colorTextos
+
+i
+    color: $colorTextos
+    font-size: 25px
+    &:hover
+        color: $colorHover
+
+.linkPie
+    text-decoration: none
+    color: $colorTextos
+    padding-left: 30px
+    padding-right: 30px
+    border-left: 1px dotted $colorLineas
+    border-right: 1px dotted $colorLineas
+    &:hover
+        color: $colorHover
+    &--modificado
+        text-decoration: none
+        color: $colorTextos
+        border: none
+        &:hover
+            color: $colorHover
+// Fin pie de pagina
 
 /* Inicia pagina contacto */
 

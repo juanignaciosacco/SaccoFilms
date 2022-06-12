@@ -50,6 +50,50 @@ nav {
   width: 250px;
 }
 
+.lineaPie {
+  border: 1px solid #bebebe;
+}
+
+h3 {
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+}
+
+p {
+  color: #bebebe;
+}
+
+i {
+  color: #bebebe;
+  font-size: 25px;
+}
+i:hover {
+  color: #ff0000;
+}
+
+.linkPie {
+  text-decoration: none;
+  color: #bebebe;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px dotted #bebebe;
+  border-right: 1px dotted #bebebe;
+}
+.linkPie:hover {
+  color: #ff0000;
+}
+.linkPie--modificado {
+  text-decoration: none;
+  color: #bebebe;
+  border: none;
+}
+.linkPie--modificado:hover {
+  color: #ff0000;
+}
+
 /* Inicia pagina contacto */
 .linea {
   position: relative;
