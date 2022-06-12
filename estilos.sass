@@ -1,0 +1,79 @@
+// Variables
+$colorNegro: rgb(21,21,21)
+$colorHover: #ff0000
+$colorLineas: #bebebe
+$colorTitulos: #fff
+$colorTextos: #bebebe
+
+body
+    background-color: $colorNegro
+
+h2
+    color: $colorTitulos
+// Inicia barra navegacion 
+nav
+    height: 200px
+
+.navLink
+    color: #fff
+    border-bottom: 2px solid #fff
+    transition: all 0.5s
+    &:active
+        color: $colorHover
+        border-top: 2px solid #fff
+        border-left: 2px solid #fff
+        border-right: 2px solid #fff
+        border-bottom: none
+        background-color: #fff
+        border-radius: 4%
+    &:hover
+        color: $colorHover
+        border-top: 2px solid #fff
+        border-left: 2px solid #fff
+        border-right: 2px solid #fff
+        border-bottom: none
+        border-radius: 4%
+    &:focus
+        color: $colorHover
+        border-top: 2px solid #fff
+        border-left: 2px solid #fff
+        border-right: 2px solid #fff
+        border-bottom: none
+        background-color: #fff
+        border-radius: 4%
+
+.active
+    color: $colorHover !important
+
+.logo
+    width: 250px
+// Fin barra navegacion
+
+
+/* Inicia pagina contacto */
+
+// Inicia titulo de pagina con lineas
+.linea
+    position: relative
+    z-index: 1
+    span 
+        background: $colorNegro
+        padding: 0 15px
+    &::before
+        border-top: 1px solid $colorLineas
+        content: " "
+        margin: 0 auto
+        position: absolute
+        top: 50%
+        left: 0
+        right: 0
+        bottom: 0
+        width: 95%
+        z-index: -1
+// Fin titulo de pagina con lineas
+
+// Formulario
+form
+    color: $colorTextos
+
+/* Fin pagina contacto */
