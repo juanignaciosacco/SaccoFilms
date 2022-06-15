@@ -88,6 +88,48 @@ i
             color: $colorHover
 // Fin pie de pagina
 
+// Inicia pagina Home
+.imagenBodasHome
+    display: inline-block
+    position: relative
+    .tituloAvanceBodas
+        display: none
+        position: absolute
+        top: 20px
+        left: 40px
+        z-index: 10
+        h4
+            color: $colorLineas
+    &:hover
+        .tituloAvanceBodas
+            display: block
+
+.imagen15AñosHome
+    display: inline-block
+    position: relative
+    .tituloAvance15Años
+        display: none
+        position: absolute
+        top: 20px
+        left: 40px
+        z-index: 10
+    &:hover
+        .tituloAvance15Años
+            display: block
+
+.imgAvanceBoda
+    width: 100%
+    &:hover
+        outline: 2px solid $colorLineas
+        outline-offset: -15px
+
+.imgAvance15años
+    width: 100%
+    &:hover
+        outline: 2px solid #fff
+        outline-offset: -15px
+// Fin pagina Home
+
 // Inicia titulo de paginas con lineas
 .linea
     position: relative
