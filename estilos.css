@@ -132,18 +132,24 @@ i:hover {
 
 .imgAvanceBoda {
   width: 100%;
+  filter: grayscale(100%);
+  transition: all 1s;
 }
 .imgAvanceBoda:hover {
   outline: 2px solid #bebebe;
   outline-offset: -15px;
+  filter: grayscale(0%);
 }
 
 .imgAvance15años {
   width: 100%;
+  filter: grayscale(100%);
+  transition: all 1s;
 }
 .imgAvance15años:hover {
   outline: 2px solid #fff;
   outline-offset: -15px;
+  filter: grayscale(0%);
 }
 
 .linea {
