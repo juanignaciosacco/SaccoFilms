@@ -53,6 +53,27 @@ nav {
   width: 250px;
 }
 
+.linea {
+  position: relative;
+  z-index: 1;
+}
+.linea span {
+  background: rgb(21, 21, 21);
+  padding: 0 15px;
+}
+.linea::before {
+  border-top: 0.5px solid #bebebe;
+  content: " ";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+
 .lineaPie {
   border: 0.5px solid #bebebe;
 }
@@ -152,25 +173,9 @@ i:hover {
   filter: grayscale(0%);
 }
 
-.linea {
-  position: relative;
-  z-index: 1;
-}
-.linea span {
-  background: rgb(21, 21, 21);
-  padding: 0 15px;
-}
-.linea::before {
-  border-top: 0.5px solid #bebebe;
-  content: " ";
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 95%;
-  z-index: -1;
+.imgAvance {
+  width: 100%;
+  height: 85%;
 }
 
 /* Inicia pagina contacto */
