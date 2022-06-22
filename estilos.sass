@@ -11,6 +11,12 @@ body
 h2
     color: $colorTitulos
 
+// Mixin
+@mixin sizes($height, $width)
+    height: $height
+    width: $width
+// Fin mixin
+
 // Inicia barra navegacion 
 nav
     height: 200px
@@ -81,6 +87,9 @@ h3
 
 h4
     color: $colorTitulos
+
+h5
+    color: $colorHover
 
 p
     color: $colorTextos
@@ -158,8 +167,22 @@ i
 
 // Inicia pagina bodas
 .imgAvance
-    width: 100%
-    height: 85%
+    @include sizes(85%, 100%)
+
+// Inicio subpaginas
+.imgAvance2
+    @include sizes(150px, 100%)
+    &:hover
+        transform: scale(1.5)
+
+h6
+    a
+        text-decoration: none
+        color: $colorTextos
+        &:hover
+            color: $colorHover
+// Fin subpaginas
+
 // Fin pagina bodas
 
 /* Inicia pagina contacto */
